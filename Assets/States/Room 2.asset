@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b205dac2dbc65f4fb336c09fb485a6f, type: 3}
+  m_Name: Room 2
+  m_EditorClassIdentifier: 
+  storyText: 'I have successfully sneaked past the guards of the hostile planet Drachma.
+    I have been walking towards the light I believe is a settlement when I was crashing
+    from the sky. I stumble upon a deserter who calls himself "Pyro" a fire creator
+    that has the power of controlling and creating fire at will.
+
+
+    Should I proceed
+    to converse to him?
+
+    1. Yes.
+
+    2. Ignore him and move towards the settlement.'
+  nextStates:
+  - {fileID: 11400000, guid: 89c6e0070159db0439305c6ee4b83270, type: 2}
+  - {fileID: 11400000, guid: 1f2734fc82cab0b439089f6c01733d16, type: 2}

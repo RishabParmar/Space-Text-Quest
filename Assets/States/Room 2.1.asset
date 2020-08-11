@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b205dac2dbc65f4fb336c09fb485a6f, type: 3}
+  m_Name: Room 2.1
+  m_EditorClassIdentifier: 
+  storyText: 'Pyro is a spy from the kingdom of Magmar, a hellish planet with soaring
+    temperatures. He was here for locating a death machine called as death star.
+    His planet picked up extreme heat signatures.
+
+
+    1. Try to attack him and
+    steal his gear?
+
+    2. Ask him for the location of jumpstar spaceship by tracing
+    it''s heat signature?'
+  nextStates:
+  - {fileID: 11400000, guid: 741606b08b03f91479e863ec04d8cd3a, type: 2}
+  - {fileID: 11400000, guid: 75ddfff89c3cebf48b6d86921e31402f, type: 2}
